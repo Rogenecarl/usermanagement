@@ -3,9 +3,7 @@ import { Outlet } from "react-router-dom";
 const DefaultLayout = () => {
   return (
     <div>
-      <div>
-        for guest layout only
-      </div>
+      Default
       <Outlet />
     </div>
   );
